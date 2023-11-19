@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "rw-gis"
+version = "0.1.0"
+description = ""
+authors = []
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pymysql = "^1.1.0"
+shapely = "^2.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
